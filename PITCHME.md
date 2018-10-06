@@ -1,6 +1,7 @@
-# Flux 
+# Introduction to Corpora
 
-An application architecture for React
+LL6033: Using Corpora in Translation Studies
+2018-2019 - University College Cork
 
 ---
 
