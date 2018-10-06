@@ -1,16 +1,14 @@
 # Introduction to Corpora
 
 LL6033: Using Corpora in Translation Studies
-2018-2019 - University College Cork
 
 ---
 
-### Flux Design
+### What is a Corpus?
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+> [A] collection of texts in electronic format which are processed and analyzed using software specifically created for linguistic research (Zanettin 2012)
 
 ---
+
 
 ![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
