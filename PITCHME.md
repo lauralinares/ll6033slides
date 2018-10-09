@@ -40,15 +40,9 @@ In corpus linguistics (and TS):
 
 ### What can we study with corpora?
 - Lexicography
-- Language theory
-- Machine Translation
 - Computational linguistics
-- Discourse Studies
 - Language variation
 - Language pedagogy
-- Translator training
-- Multilingual terminology
-- Tools for translation practice
 - Contrastive linguistics
 - Descriptive Translation Studies
 ---
@@ -76,7 +70,7 @@ Representativeness
 * Selection of particular texts
 * Selection of text samples
 * Length of text samples
-
+---
 ### Key elements of Corpora
 
 Representativeness
@@ -91,8 +85,8 @@ Balance and sampling
 
 <!--- A balanced corpus is supposed to cover a wide range of text categories considered to be representative of language or variety under scrutiny. Such categories are sampled proportionally so as to offer a 'manageably small scale model of the linguistic material which the corpus buidlers wish to study' (Atkins et al.) -->
 
-* Balance of texts
-* Balance of sample sizes
+  - Balance of texts
+  - Balance of sample sizes
 
 <!--- How might this affect the way you create a corpus for translation? Or you evaluate a readily available corpus? -->
 
@@ -125,7 +119,7 @@ Synchronic vs. diachronic
 
 Dynamic vs. static
 ---
-###Types of Corpora
+### Types of Corpora
 
 Monolingual vs. Multilingual
 ---
@@ -147,7 +141,7 @@ Parallel vs. comparable
 - Huge Size
 - Uneven quality of the texts it contains
 - Issues of authenticity (authoritativeness)
-
+---
 > Everyday experience suggests that 'authentic' in the web often means inaccurate (misspelt words, grammar mistakes, improper usage by non-native speakers), i.e. texts that are almost certainly authentic in terms of their communicative intent but may be unreliable and lacking authority at the level of code. (Gatto 2014)
 
 
@@ -163,16 +157,16 @@ Parallel vs. comparable
 
 ### Key issues of the Web as corpus
 
-Authenticity <!---- Biggest asset! BUT unsupervised: authenticity might mean misspellings, grammar mistakes, improper usage, usage by non-native speakers, etc. --->
-Representativeness <!--- Certain areas under-represented and others under-represented. Lew notes that an inordinately high proportion of web-based texts are about the web itself or about high-technology
+* Authenticity <!---- Biggest asset! BUT unsupervised: authenticity might mean misspellings, grammar mistakes, improper usage, usage by non-native speakers, etc. --->
+* Representativeness <!--- Certain areas under-represented and others under-represented. Lew notes that an inordinately high proportion of web-based texts are about the web itself or about high-technology
 Also: the web as a marketing tool! Repetition of keywords: Is that representative of natural language? Can we even talk about authentic language?
 Finally, it also depends on the language -->
-Size <!--- Overwhelming? --->
-Dynamism
-Relevance and reliability
-Access
+* Size <!--- Overwhelming? --->
+* Dynamism
+* Relevance and reliability
+* Access
 ---
-First, not all documents contain text, and many of those that do are not
+<!--- First, not all documents contain text, and many of those that do are not
 only text. Second, it changes all the time. Third, like Borges’s Library of
 Babel, it contains duplicates, near duplicates, documents pointing to duplicates that may not be there, and documents that claim to be duplicates
 but are not. Next, the language has to be identifed (and documents may
@@ -181,24 +175,44 @@ any perspective on the language we have at our disposal in the web, we
 must classify some of the millions of web pages, and we shall never do
 so manually, so corpus linguists, and also web search engines, need ways
 of telling what sort of text a document contains: chat or hate-mail; learned
-article or bus timetable. (Kilgarriff 2001)
+article or bus timetable. (Kilgarriff 2001) --->
 ---
 
 ### Web as macro-Corpus
 - Internet searches: Google
-- Search operators:
-  - site:
-  - related:
-  - "exact match search"
-  - Boolean Operators: OR, AND, NOT
-  - -term <!--- Exclude a term or phrase. Eg. jobs -apple will return things realted to jobs but not to apple-->
-  - Wildcards (\*)
-  - () <!--- Group multiple terms or search operators to control how the search is executed eg. (ipad OR iphone) apple --->
-  - AROUND(X) <!--- Proximity search. Find pages containing two words or phrases within X words of each other. eg. apple AROUND (4) iphone means that the words apple and iphone must be present in the content and no further than four words apart.-->
-  - map:
+- Search operators
+---
+### Web as macro-Corpus
+site:
+---
+### Web as macro-Corpus
+related:
+---
+### Web as macro-Corpus
+"exact match search"
+---
+### Web as macro-Corpus
+Boolean Operators: OR, AND, NOT
+---
+### Web as macro-Corpus
+-term <!--- Exclude a term or phrase. Eg. jobs -apple will return things realted to jobs but not to apple-->
+---
+### Web as macro-Corpus
+Wildcards (\*)
+---
+### Web as macro-Corpus
+() <!--- Group multiple terms or search operators to control how the search is executed eg. (ipad OR iphone) apple --->
+---
+### Web as macro-Corpus
+AROUND(X) <!--- Proximity search. Find pages containing two words or phrases within X words of each other. eg. apple AROUND (4) iphone means that the words apple and iphone must be present in the content and no further than four words apart.-->
+---
+### Web as macro-Corpus
+map:
   - _ <!--- Acts as a wildcard for Google Autocomplete-->
   - .. <!--- Search for a range of numbers. Eg. jobs 2010..2014-->
-  - loc:placename <!--- Results from a given area-->
+---
+### Web as macro-Corpus
+loc:placename <!--- Results from a given area-->
   - @ <!--- Social media eg. phone recall @twitter--->
 
 ---
@@ -207,19 +221,20 @@ A Google a Day!
 ---
 ### Uses of parameters
 
-Phrase search and collocation <!--- Particularly interesting when you are translating into your second language! --->
+**Phrase search and collocation** <!--- Particularly interesting when you are translating into your second language! --->
+
 Heavy rain vs. thick rain (Gatto 2014) <!--- Even allowing for a number of these results to be irrelevant, the number of hits retrieved is huge) BUT always be aware of noise!! -->
 
 ---
 
 ### Uses of parameters
 
-Phraseology and patterns
+**Phraseology and patterns**
 
 "To * a better future"
 
 Gluten sensitive enteropathy (Gatto 2014)
-    * gluten * enteropathie ->
+    * gluten * enteropathie:
           * Entéropathie au gluten
           * Entéropathie d'intolerance au gluten
           * Entéropathie induite par le gluten.
@@ -229,18 +244,27 @@ Gluten sensitive enteropathy (Gatto 2014)
 
 Disambiguation
 
-surgical removal or decompression of cysts (Maniez 2007) <!--- Does surgical refer to both removal and decompression or only to removal? Web counts returned for the search surgical decompression (200,000) indicate the former is probably the case)-->
+Surgical removal or decompression of cysts
+
+(Maniez 2007) <!--- Does surgical refer to both removal and decompression or only to removal? Web counts returned for the search surgical decompression (200,000) indicate the former is probably the case)-->
 ---
 
 ### Useful web resources
 
 Google Trends
+
 Google Books N-Grams
 
 ---
 
-## Beyond Google: Concordancers and web Corpora
+## Beyond Google
+
+Concordancers, Web Corpora, Corpus Compilators
 
 WebCorp
+
 iWeb corpus
+
+CQP Web
+
 ---
