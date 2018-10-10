@@ -86,7 +86,9 @@ DCEP: Digital Corpus of the European Parliament: https://ec.europa.eu/jrc/en/lan
 ### A. Use the web to search for evidence of attested usage of:
 
 Tall temperature vs high temperature
+
 Separate ways vs. different ways
+
 Large number vs big number
 
 **Now do the same for the different translation possibilities in your other language(s)**
@@ -94,6 +96,7 @@ Large number vs big number
 ### B. Devise a complex query to explore the following patterns in academic discourse:
 
 Have a ... impact on
+
 A ... increase in
 
 **What are the most common terms for the blanks? How can you translate the expressions into your other language(s) (and make sure the patterns are equally common)?**

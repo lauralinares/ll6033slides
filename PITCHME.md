@@ -15,6 +15,7 @@ LL6033: Using Corpora in Translation Studies
 ### What is a corpus?
 
 Origin of the word
+
 Use in other contexts
 ---
 
@@ -93,7 +94,6 @@ Balance and sampling
 ---
 <!--- Composition of the BNC image --->
 
----
 ### Key issues in Corpora
 
 Size
@@ -176,7 +176,6 @@ must classify some of the millions of web pages, and we shall never do
 so manually, so corpus linguists, and also web search engines, need ways
 of telling what sort of text a document contains: chat or hate-mail; learned
 article or bus timetable. (Kilgarriff 2001) --->
----
 
 ### Web as macro-Corpus
 - Internet searches: Google
@@ -207,12 +206,13 @@ Wildcards (\*)
 AROUND(X) <!--- Proximity search. Find pages containing two words or phrases within X words of each other. eg. apple AROUND (4) iphone means that the words apple and iphone must be present in the content and no further than four words apart.-->
 ---
 ### Web as macro-Corpus
-map:
-  - _ <!--- Acts as a wildcard for Google Autocomplete-->
   - .. <!--- Search for a range of numbers. Eg. jobs 2010..2014-->
 ---
 ### Web as macro-Corpus
 loc:placename <!--- Results from a given area-->
+
+---
+### Web as macro-Corpus
   - @ <!--- Social media eg. phone recall @twitter--->
 
 ---
